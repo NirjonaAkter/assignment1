@@ -1,0 +1,54 @@
+/* common share style */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    width: 1200px; 
+    height: 600px; 
+    margin: 50px auto 0; 
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+                url('../resources/Banner Image.png') center/cover no-repeat;
+    border-radius: 16px; 
+    z-index: -1;
+    width: 100%; 
+    height: 100%; 
+}
+
+.content {
+    position: absolute;
+    top: 150px; 
+    left: 50px; 
+    text-align: center;
+    color: #fff;
+}
+
+.content h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 35px 20px 250px 20px; /* Adjust padding */
+}
+
+.content h6 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 30px 20px 20px 20px; /* Adjust padding */
+}
+
