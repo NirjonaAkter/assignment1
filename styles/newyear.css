@@ -165,18 +165,15 @@ body {
 }
 
 .contrast{
-    width: 1300px; 
-    height: 500px; 
-    margin: 0 auto; 
-    padding: 150px 120px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
 }
+
 #place-padding {
-   
-    padding: 50px 120px;
+    padding: 30px 30px 0px 150px; 
     align-items: center;
 }
+
 /* Gift Section Styles */
 .gift {
     color: #F00;
@@ -185,10 +182,8 @@ body {
 .gift-pera {
     color: rgba(7, 2, 17, 0.60);
     width: 896px;
-    
 }
+
 .gift-padding{
-    padding: 30px 30px 0px 150px;
-    width: 1320px;
-    height: 482px;
+   
 }
