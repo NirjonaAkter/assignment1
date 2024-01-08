@@ -165,13 +165,27 @@ body {
 }
 
 .contrast{
-    width: 1050px; /* Set to the width of the party image */
-    height: 500px; /* Set to the height of the party image */
-    margin: 0 auto; /* Center the element horizontally */
+    width: 1300px; /
+    height: 500px; 
+    margin: 0 auto; 
     padding: 150px 120px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 #place-padding {
     padding: 150px 120px;
+
+/* Gift Section Styles */
+.gift {
+    color: #F00;
 }
 
+.gift-pera {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    
+}
+.gift-padding{
+    padding: 150px 120px;
+    width: 1320px;
+    height: 482px;
+}
