@@ -165,7 +165,7 @@ body {
 }
 
 .contrast{
-    width: 1300px; /
+    width: 1300px; 
     height: 500px; 
     margin: 0 auto; 
     padding: 150px 120px;
@@ -173,7 +173,7 @@ body {
 }
 #place-padding {
     padding: 150px 120px;
-
+}
 /* Gift Section Styles */
 .gift {
     color: #F00;
