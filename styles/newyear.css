@@ -275,3 +275,26 @@ body {
     font-size: 48px;
     font-weight: 900;
 }
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    display: flex;
+}
+
+form input {
+    border: none;
+    padding: 10px;
+    border-radius: 50px 0 0 50px;
+}
+
+.email-button{
+    border: none;
+    padding: 10px 20px;
+    background: #F00;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
