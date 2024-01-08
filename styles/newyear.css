@@ -373,76 +373,76 @@ form input {
     margin-top: 75px;
 }
 
-.footer-wrapper {
+.footerend {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
 }
 
-.footer-text {
+.ftext {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
 }
 
-.footer-list-container {
+.fcontainer-list {
     display: block;
     align-items: center;
     margin-right: 200px;
 }
 
-.footer-list-item {
+.flist-iteam {
     list-style: none;
     margin-top: 5px;
 }
 
-.footer-list-item img {
+.flist-iteam img {
     margin-top: 5px;
     width: 24px;
     height: 24px;
 }
 
-.footer-list-item a {
-    font-size: 20px;
-    font-weight: 400;
+.flist-iteam a {
+    font-size: 25px;
+    font-weight: 300;
     color: #FFFFFF;
-    padding-left: 15px;
+    padding-left: 10px;
     text-decoration: none;
 }
 
-.icon-container {
-    padding: 45px 0;
+.icontainer {
+    padding: 40px 0;
 }
 
-.icon-container ul {
+.icontainer ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.icon-container ul li {
-    margin: 0 10px;
+.icontainer li ul{
+    margin: 0 15px;
 }
 
-.icon-container ul li img {
-    width: 64px;
-    height: 64px;
+.icontainer li img ul {
+    width: 60px;
+    height: 60px;
 }
 
 .hr-line {
     background: #FF0000;
 }
 
-.copy-right-container {
+.lastcontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 25px;
 }
 
-.copy-right-text {
+.lastcontainer-text {
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
