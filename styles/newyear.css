@@ -205,28 +205,40 @@ body {
     background: lightgray 50% / cover no-repeat;
 }
 
-/* Replace the ellipsis (...) with the correct relative paths */
 .gift-item:nth-child(1) .gift-image {
-    background-image: url('../assignment1/resources/pic1.png');
+    background-image: url('resources/pic1.png');
 }
 
 .gift-item:nth-child(2) .gift-image {
-    background-image: url('../assignment1/resources/pic2.png');
+    background-image: url('resources/pic2.png');
 }
 
 .gift-item:nth-child(3) .gift-image {
-    background-image: url('../assignment1/resources/pic3.png');
+    background-image: url('resources/pic3.png');
 }
 
 .gift-item:nth-child(4) .gift-image {
-    background-image: url('../assignment1/resources/pic4.png');
+    background-image: url('resources/pic4.png');
 }
 
 .gift-item:nth-child(5) .gift-image {
-    background-image: url('../assignment1/resources/pic5.png');
+    background-image: url('resources/pic5.png');
 }
 
 .gift-item:nth-child(6) .gift-image {
-    background-image: url('../assignment1/resources/pic6.png');
+    background-image: url('resources/pic6.png');
+}
+
+
+.gift-item:nth-child(4) .gift-image {
+    background-image: url('resources/pic4.png');
+}
+
+.gift-item:nth-child(5) .gift-image {
+    background-image: url('resources/pic5.png');
+}
+
+.gift-item:nth-child(6) .gift-image {
+    background-image: url('resources/pic6.png');
 }
 
