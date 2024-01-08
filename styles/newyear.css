@@ -10,7 +10,8 @@ body {
     margin: 50px auto 0;
     border-radius: 16px;
     overflow: hidden;
-    padding-bottom: 20px; /* Add padding to the bottom */
+    padding-bottom: 20px;
+    /* Add padding to the bottom */
 }
 
 .banner::before {
@@ -21,7 +22,7 @@ body {
     bottom: 0;
     left: 0;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-                url('../resources/Banner Image.png') center/cover no-repeat;
+        url('../resources/Banner Image.png') center/cover no-repeat;
     border-radius: 16px;
     z-index: -1;
     width: 100%;
@@ -57,4 +58,38 @@ body {
     font-weight: 900;
     line-height: 95px;
     margin: 0;
+}
+
+.section-title1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-title2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-title3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.newyear{
+    padding: 0 390px;
 }
