@@ -282,6 +282,7 @@ body {
 
 form {
     display: flex;
+    align-items: center; /* Align items vertically in the middle */
 }
 
 form input {
@@ -290,7 +291,7 @@ form input {
     border-radius: 50px 0 0 50px;
 }
 
-.email-button{
+.email-button {
     border: none;
     padding: 10px 20px;
     background: #F00;
