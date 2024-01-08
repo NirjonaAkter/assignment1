@@ -167,6 +167,73 @@ body {
     align-items: center;
 }
 
+.offer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.newoffer {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FF0000;
+    text-align: left;
+}
+
+.offer-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.offer-description {
+    width: 393px;
+    font-size: 20px;
+    color: #070211;
+    text-align: left;
+}
+
+.sec-offer {
+    width: 364px;
+    height: 364px;
+    margin: auto;
+}
+
+.ellipse {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid #FF0000;
+    padding: 15px;
+}
+
+.thir-offer {
+    padding-right: 0;
+}
+
+.thir-offer-title {
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+    color: #FF0000;
+    padding-bottom: 15px;
+}
+
+.thir-offer-description {
+    width: 276px;
+    font-size: 20px;
+    color: #070211;
+    padding-bottom: 30px;
+}
+
+.image{
+    width: 140px;
+    height: 140px;
+}
+
 /* Gift Section Styles */
 .gift {
     color: #F00;
@@ -298,4 +365,86 @@ form input {
     color: white;
     border-radius: 0 50px 50px 0;
     cursor: pointer;
+    margin-left: -1px; /* Add a negative margin to remove the small gap between input and button */
 }
+.footer-container {
+    background-color: #070211;
+    padding: 100px 0;
+    margin-top: 75px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.footer-list-container {
+    display: block;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.footer-list-item {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.footer-list-item img {
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-list-item a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.icon-container {
+    padding: 45px 0;
+}
+
+.icon-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container ul li {
+    margin: 0 10px;
+}
+
+.icon-container ul li img {
+    width: 64px;
+    height: 64px;
+}
+
+.hr-line {
+    background: #FF0000;
+}
+
+.copy-right-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.copy-right-text {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+
