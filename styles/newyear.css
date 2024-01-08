@@ -170,9 +170,11 @@ body {
     margin: 0 auto; 
     padding: 150px 120px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
 }
 #place-padding {
-    padding: 150px 120px;
+    padding: 90px 120px;
+    align-items: center;
 }
 /* Gift Section Styles */
 .gift {
